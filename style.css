@@ -1,0 +1,264 @@
+body
+{
+    transition: 0.3s;
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+#box
+{
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    margin: 50px auto;
+}
+.overlay
+{
+    display: none; 
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19,28,37,0.7);
+    z-index: 20;
+    transition: 0.4s;
+}
+.regbar{
+    display: none;
+    z-index: 30;
+    position: fixed;
+    width:30%;
+    height: 450px;
+    left: 35%;
+    top: 20%;
+    color: #4a76a8;
+    border-radius: 5%;
+    background-color: white;
+    box-shadow: 12px 12px 25px #131c25;
+    transition: 0.4s;
+}
+.logbar
+{
+    display: none;
+    z-index: 25;
+    position: fixed;
+    width:30%;
+    height: 300px;
+    left: 35%;
+    top: 20%;
+    color: #4a76a8;
+    border-radius: 5%;
+    background-color: white;
+    box-shadow: 12px 12px 25px #131c25;
+    transition: 0.4s;
+}
+.navbar
+{
+    z-index: 20;    
+    width: 100%;
+    height: 4.2vw;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#mainlogo
+{
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+    /* background-image: url("img/mainlogo1.png"); */
+    float: left;
+    width:10%;
+    margin-left: 0.8vw;
+    margin-top: 0.7vw;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+.stylebtn
+{
+    float: left;
+    width: 1.3vw;
+    height: 1.3vw;
+    border-radius: 50%;
+    margin-left: 1%;
+    /* margin-top: 20px; */
+    margin-top: 1vw;
+    transition: 0.3s;
+    border: 3px gray;
+    cursor: pointer;
+
+}
+#green {background-color: #4CAF50; }
+#blue {background-color: #00517C;}
+#orange {background-color: #F48024;  }
+.nbbtn
+{
+    transition: 0.3s;
+    float: right;
+    font-size: 1.5vw;
+    line-height: 4.2vw;
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+    cursor: pointer;
+}
+
+.mainbg
+{
+    z-index: -100;
+    width: 100%;
+    transition: 0.5s;
+}
+.teachmore
+{
+    padding-top: 7%;
+    color: white;
+    font-size: 3vw;
+    text-align: center; 
+}
+.subtit
+{
+    padding-top: 2%;
+    width: 50%;
+    margin: auto;
+    font-size: 2.5vw;
+    text-align: justify;
+}
+.mainbtn
+{
+    margin-top: 3%;
+    float: left;
+    padding: 1%;
+    background-color: white;
+    text-align: center;
+    font-size: 2vw;
+    width: 14%;
+    box-shadow: 2px 2px 12px darkslategray; 
+}
+#mainpage
+{
+    width: 100%;
+    height: 900px;
+    background-color: #EEF2F6;
+    transition: 0.3s;
+}
+.teachers
+{
+    width:100%;
+    margin: auto;
+    margin-top: 50px;
+    clear: both;
+    position: relative; 
+}
+input
+{
+    border: 0;
+    display: inline-block;
+    border: 1px solid darkgray ;
+    border-radius: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 20%;
+    margin-top: 3%;
+    width: 60%;
+}
+.labelreg
+{
+    margin-left: 20%;
+    line-height: 40px;
+}
+input[type=password]
+{
+    margin-top: 0;
+}
+#teadent
+{
+    width: 53%;
+    height: 25px;
+    border: 1px solid darkgray ;
+    border-radius: 5%;
+}
+#submit_btn
+{
+    margin-top: 10px;
+    border-radius: 5%;
+    width: 60%;
+    height: 40px;
+    margin-left: 20%;
+    color: white;
+    font-size:  15px;   
+    line-height: 40px;
+    text-align: center;
+    transition: 0.2s;
+}
+#login_btn
+{
+     margin-top: 10px;
+    border-radius: 5%;
+    width: 60%;
+    height: 40px;
+    margin-left: 20%;
+    background-color: #4a76a8;
+    color: white;
+    font-size:  15px;   
+    line-height: 40px;
+    text-align: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.about
+{
+    width: 60%;
+    height: 220px;
+    margin: 80px auto;
+}
+.about1img
+{
+    float: left;
+    width: 30%;
+    margin-top: 20px;
+}
+.about2img
+{
+    width: 33%;
+    margin-top: 20px;
+}
+.about1p
+{   
+    font-size: 25px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+#footerlogo
+{
+    width: 4.7%;
+    margin: 10px;
+    margin-left: 20%;
+    float: left;
+}
+.profilepage
+{
+    width: 66%;
+    margin: auto;
+    background-color:#EEF2F6;
+}
+.welcome
+{
+    transition: 0.3s;
+    text-align: center;
+}
+#workstyle
+{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    height: 30px;
+}

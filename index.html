@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Square Study | Teach or be teached</title>
+    <link rel="icon" type="img/png" href="img/icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src = "script/jquery.js"></script>
+    <script src="script/main.js"></script>
+    <script src="script/regis.js"></script>
+    <script src="script/login.js"></script>
+    <script src="script/jquery.maskedinput.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <a href="index.html"><img src="" alt="" id="mainlogo"></a>
+        <div>
+            <span class="stylebtn" id="green"></span>
+            <span class="stylebtn" id="blue"></span>
+            <span class="stylebtn" id="orange"></span>
+        </div>
+        <div class = "nbbtn" id="log_in" style = "margin-right: 3%">Login</div>
+        <div class = "nbbtn" id="join_us">Join us</div>
+        <div class = "nbbtn" id="about">about</div>
+    </header>
+
+    <div class="overlay"></div>
+    <div class="regbar">
+            <img src="img/mainlogo1.png" style="width: 30%; margin: 3%; margin-left: 20%; float: left;" alt="" id="regbarlogo">
+            <p class="regbarinsc" style="font-size: 20px; width: 40%; margin-top:30px;margin-bottom: 0; float: left;"> for anyone</p>
+            <div class="exitbtn" style="padding-right: 10px; cursor: pointer; font-family: Open Sans,Lato,sans-serif; font-size: 40px; float: right;">x</div>
+            <div class="regform"><form action="">
+                <input type="text" id="name" placeholder="name">
+                <input type="text" id="username" placeholder="username">
+                <input type="text" id="mail" placeholder="mail"> <br>
+                <input  id="phone1" type="text" class="form-control" placeholder="number">
+                <label for="" class="labelreg" >I'm a</label>
+                <select name="" id="teadent">
+                    <option value="student" style="text-align: center">student</option>
+                    <option value="teacher" style="text-align: center">teacher</option>
+                </select>
+                <input type="password" id="password" placeholder="password">
+                <div id="submit_btn">SUBMIT</div>
+            </form></div>
+    </div>
+
+    <div class="logbar">
+        <img src="img/mainlogo1.png" style="width: 30%; margin: 3%; margin-left: 20%; float: left;" alt="" id="logbarlogo">
+        <p class="logbarinsc" style="font-size: 20px; width: 40%; margin-top:30px;margin-bottom: 0; float: left;"> for anyone</p>
+        <div class="exitbtn" style="padding-right: 10px; cursor: pointer; font-family: Open Sans,Lato,sans-serif; font-size: 40px; float: right;">x</div>
+        <p class="LogbarP" style="clear: both;text-align: center; font-size: 20px;">LOGIN</p>  
+        <input type="text" id="username_log", placeholder="Handle">
+        <input type="password" id="password_log", placeholder="password" style="margin-top: 3%">
+        <div id="login_btn" href="profile.html">Log in</div>
+    </div>
+    <div class = "mainbg">
+        <div class = "teachmore">Learn.Teach.And again</div>
+        <p class = "teachmore subtit"> The first platform, where you can find your teacher, or find students online and free. Connect with other students or teachers and enjoy new ranking system</p>
+        <div class="mainbtn" id = "amteacher" style = "margin-left: 30%;">I'm a teacher</div>
+        <div class="mainbtn" id = "amstudent" style = "margin-left: 6%;">I'm a student</div>
+        <div style="width: 40%; margin: auto"><img src="img/teachers.png" alt="" class="teachers"> </div>
+    </div>
+
+    <div id="mainpage">
+        <br><br><br><br><br>
+        <div class="about" style="margin-top:0px; margin-bottom: 20px">
+            <img src="img/mainimage1.png" class="about1img" alt="">
+            <h1 class="about1h1" style="margin-top:0px">Find any teacher for any lesson</h1>
+            <p class="about1p">With intuitive interface, find tutor for any lesson, choose your teacher according to price and ranking system. Square Study is designed to make your education easier!</p>
+        </div>
+
+        <div class="about" style="margin-top: 40px">
+            <div style="width: 65%; float: left;"><h1 class="about1h1" style = "margin-left: 7%">Or start your teaching carier</h1>
+            <p class="about1p">If you have enough education to teach, start making money with Square Study. No higher education required, just fill your profile as full as possible and improve your rank to become best teacher</p></div>
+            <img src="img/mainimage2.png" class="about2img" alt="" style="float: right">
+
+        </div>
+        <div class="about" style="margin-bottom: 0px">
+            <img src="img/mainpage2.png" style="width: 26%; float: left; margin-right: 5%" alt="">
+            <h1 class="about1h1">Be prepared for any exams</h1>
+            <p class="about1p">Find tutor, who will prepare you for exam that you want. Square Study is totally free platform to help students to study and to help teacher to teach! </p>
+        </div>
+    </div>
+    <footer><img src="img/icon.png" alt="" id="footerlogo">
+        <h3 style="float: left;"><bold>Square Study</bold> is totally free project, in aim to help people and make study and teaxhing more accessable</h3>
+        <a href="studentprofile.html"><button>StudentProfile</button></a>
+    </footer>
+</body> 
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf-8" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <title>DISCITE | Teach or be teached</title>
+                <link rel="icon" type="img/png" href="img/icon.png">
+                <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+                <script src = "script/jquery.js"></script>
+                <script src="script/main.js"></script>
+                <script src="script/regis.js"></script>
+                <script src="script/login.js"></script>
+                <script src="script/jquery.maskedinput.min.js"></script>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            </head>
+<body>
+        <header class="navbar">
+                <a href="index.html"><div id="mainlogo"></div></a>
+                <div>
+                        <span class="stylebtn" id="green"></span>
+                        <span class="stylebtn" id="blue"></span>
+                        <span class="stylebtn" id="orange"></span>
+                </div>
+                <div class = "nbbtn" id="log_out" style = "margin-right: 3%">Logout</div>
+                <div class = "nbbtn" id="profile">My profile</div>
+        </header>
+        <div class="profilepage"><h1 class="welcome"></h1>
+                <br><br><br>
+                <h1 style="text-align: center;">Search teacher by using filters below</h1>
+                <form action="">
+                    <input type="text" placeholder="Rank">
+                    <input type="text" placeholder="subject">
+                    <input type="text" placeholder="exam">
+                    <input type="text" placeholder="age(diapason)" >
+                    <input type="text" placeholder="lesson cost(per hour)">
+                    <select name="" id="workstyle">
+                            <option value="Online">Online</option>
+                            <option value="atthome">At teachers home</option>
+                            <option value="atshome">At students home</option>
+                            <option value="another">Another place</option>
+                    </select>    
+                    <input type="button" value="Search" id="Steacher" style="margin-bottom: 50px">
+
+                </form>
+            </div>
+</body>
+</html>
